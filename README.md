@@ -17,8 +17,8 @@ Tools Used: Scikit-learn, Pandas, Numpy, Matplotlib
 4. Defining the Vertices and Weights:
     - The features or the columns are taken into a list to define Vertices.
     - Weights are stored into another list by extracting the upper triangular matrix from the correlation matrix.
-5. # The Graph Based Approach:
-   ## Generating the Minimum Spanning Tree(MST) for the Graph using Krushkal's algorithm
+5. ## The Graph Based Approach:
+   ### Generating the Minimum Spanning Tree(MST) for the Graph using Krushkal's algorithm
       A spanning tree of a graph is a sub graph that is a tree and connects all the vertices without forming a loop. Number of vertices is same as the           original graph.
       Method:
       a. Sort all the edges in non-decreasing order of their weight.
