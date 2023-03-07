@@ -23,8 +23,11 @@ Tools Used: Scikit-learn, Pandas, Numpy, Matplotlib
       Method:
       
       a. Sort all the edges in non-decreasing order of their weight.
+      
       b. Pick the smallest edge. Check if it forms a cycle with the spanning tree formed so far. If cycle is not formed include this edge else discard it.
+      
       c. Repeat Step b until there are (V-1) edges in the spanning tree.
+      
 6. Removing edges whose weights are greater than the threshold from the constructed MST
     - Cosidering the Threshold to be -0.31, the vertices associated with weight greater than this are dropped.
     - The remaining MST is printed after dropping the vertices.
